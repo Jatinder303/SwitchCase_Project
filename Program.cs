@@ -13,6 +13,7 @@ namespace SwitchCase_Project
         {
             int Day_number;
             Console.WriteLine("Enter a number between 1 to 7, to check the day of a week");
+            Console.WriteLine(  "Hello,");
             Day_number = Convert.ToInt32(Console.ReadLine());
 
             switch(Day_number)   //9
